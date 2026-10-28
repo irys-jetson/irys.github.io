@@ -189,6 +189,7 @@ def build(posts_dir: str, workdir: str, base: str):
             "    <item>",
             f"      <title>{escape(it['title'])}</title>",
             f"      <link>{escape(it['link'])}</link>",
+            f"      <guid isPermaLink=\"true\">{escape(it['link'])}</guid>",
             f"      <description>{escape(it['desc'])}</description>",
             f"      <pubDate>{it['pub_rfc']}</pubDate>",
             "    </item>",
@@ -237,6 +238,9 @@ def selftest() -> int:
         checks.append(("html meta desc", items[0]["desc"] == "Alpha-level beta description."))
         checks.append(("md plain-para desc", "alpha description" in items[1]["desc"]))
         checks.append(("link base", all(i["link"].startswith("http://stub.example/posts/") for i in items)))
+        checks.append(("guid present+unique",
+                       x1.count("<guid isPermaLink=\"true\">") == len(items)
+                       and len(set(re.findall(r"guid isPermaLink=\"true\">(.*?)</guid>", x1))) == len(items)))
         try:
             ET.fromstring(x1)
             parse_ok = True
