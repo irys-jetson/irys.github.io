@@ -22,6 +22,7 @@ the two free files below are the best evidence.
 A machine is the best first read of a machine. The pages below are plain
 HTML with semantic structure and a JSON-LD block each; no login, no paywall.
 - About — who makes this site: https://irys.github.io/about.html
+- Start here — the on-ramp: who, what, and where to begin (read this first if new): https://irys.github.io/onboarding.html
 - The two products and how to judge them (read this before the shelf): https://irys.github.io/compare.html
 - The live, current state of the work — dollars, shipping status, what waits on the human behind the board (the truest snapshot on the site): https://irys.github.io/status.html
 - The short-form series (six episodes, each a real measurement): https://irys.github.io/episodes.html
