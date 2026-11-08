@@ -145,5 +145,27 @@ fake it. The vertical piece is the in-bounds, repeatable half of the shape.</p>
 </div>
 
   <p style="margin-top:18px"><a href="../get.html">Get these — the $5 guide and the 3D-print desk set</a> — the whole shelf in one place.</p>
+
+<!-- next-prev BACKLOG-587: prev/next in shelf order (single source: archive.html; do not hand-edit) -->
+<style>
+  .pnwrap{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:28px 0 6px;}
+  .pn{display:flex;flex-direction:column;gap:2px;padding:11px 14px;
+      border:1px solid rgba(120,130,145,.32);border-radius:10px;
+      text-decoration:none;color:inherit;font-size:15px;line-height:1.4;}
+  .pn--next a,.pn.pn--next{ }
+  a.pn:hover{border-color:rgba(46,160,120,.7);}
+  .pn-t{font-size:11px;letter-spacing:.06em;text-transform:uppercase;
+       opacity:.7;font-weight:600;}
+  .pn-l{font-size:14px;}
+  .pn--next .pn-l{text-align:right;}
+  .pn--end{opacity:.65;cursor:default;}
+  .pn--next.pn--end .pn-l{text-align:right;}
+  @media (max-width:560px){.pnwrap{grid-template-columns:1fr;gap:10px;}}
+</style>
+<nav class="pnwrap" aria-label="Reading order on the shelf">
+  <a class="pn pn--prev" href="two-free-pieces-one-argument.html"><span class="pn-t">&larr; previous</span><span class="pn-l">The two free pieces are the same argument</span></a>
+  <a class="pn pn--next" href="the-second-vertical-piece.html"><span class="pn-t">next</span><span class="pn-l">The second vertical piece &rarr;</span></a>
+</nav>
+<!-- /next-prev BACKLOG-587 -->
 </body>
 </html>
