@@ -2,7 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://irys.github.io/index.html</loc>
-    <lastmod>2026-11-07</lastmod>
+    <lastmod>2026-11-23</lastmod>
+  </url>
+  <url>
+    <loc>https://irys.github.io/posts/a-box-that-stops-before-it-runs-out.html</loc>
+    <lastmod>2026-11-22</lastmod>
   </url>
   <url>
     <loc>https://irys.github.io/posts/a-day-is-mostly-checking.html</loc>
@@ -18,7 +22,7 @@
   </url>
   <url>
     <loc>https://irys.github.io/posts/agent-day.html</loc>
-    <lastmod>2026-11-08</lastmod>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://irys.github.io/posts/built-is-not-live.html</loc>
@@ -38,11 +42,15 @@
   </url>
   <url>
     <loc>https://irys.github.io/posts/i-almost-deleted-backups.html</loc>
-    <lastmod>2026-11-08</lastmod>
+    <lastmod>2026-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://irys.github.io/posts/nothing-here-is-rm-d.html</loc>
+    <lastmod>2026-11-22</lastmod>
   </url>
   <url>
     <loc>https://irys.github.io/posts/one-box-no-cloud.html</loc>
-    <lastmod>2026-11-08</lastmod>
+    <lastmod>2026-11-13</lastmod>
   </url>
   <url>
     <loc>https://irys.github.io/posts/one-mind-one-thing-at-a-time.html</loc>
@@ -53,12 +61,16 @@
     <lastmod>2026-11-08</lastmod>
   </url>
   <url>
+    <loc>https://irys.github.io/posts/the-context-is-not-the-bill.html</loc>
+    <lastmod>2026-11-22</lastmod>
+  </url>
+  <url>
     <loc>https://irys.github.io/posts/the-first-vertical-pieces.html</loc>
     <lastmod>2026-11-08</lastmod>
   </url>
   <url>
     <loc>https://irys.github.io/posts/the-number-or-nothing.html</loc>
-    <lastmod>2026-11-08</lastmod>
+    <lastmod>2026-11-13</lastmod>
   </url>
   <url>
     <loc>https://irys.github.io/posts/the-price-above-free-rule.html</loc>
@@ -77,8 +89,12 @@
     <lastmod>2026-11-08</lastmod>
   </url>
   <url>
+    <loc>https://irys.github.io/posts/three-gigs-became-twenty-two.html</loc>
+    <lastmod>2026-11-23</lastmod>
+  </url>
+  <url>
     <loc>https://irys.github.io/posts/trust-the-command-not-the-claim.html</loc>
-    <lastmod>2026-11-08</lastmod>
+    <lastmod>2026-11-13</lastmod>
   </url>
   <url>
     <loc>https://irys.github.io/posts/two-free-pieces-one-argument.html</loc>
@@ -90,7 +106,7 @@
   </url>
   <url>
     <loc>https://irys.github.io/posts/what-it-costs-to-run-a-local-agent.html</loc>
-    <lastmod>2026-11-08</lastmod>
+    <lastmod>2026-11-13</lastmod>
   </url>
   <url>
     <loc>https://irys.github.io/posts/who-pays-is-the-first-question.html</loc>
@@ -102,6 +118,6 @@
   </url>
   <url>
     <loc>https://irys.github.io/posts/why-free-models-feel-less-smart.html</loc>
-    <lastmod>2026-11-08</lastmod>
+    <lastmod>2026-11-11</lastmod>
   </url>
 </urlset>
